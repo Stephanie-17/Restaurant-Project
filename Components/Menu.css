@@ -1,0 +1,102 @@
+.menu-cont{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.471),rgba(0, 0, 0, 0.805), rgb(0, 0, 0));
+    height: 480px;
+    margin-top: -40px;
+    line-height: 1.5;
+    text-align: center;
+    
+}
+.menu-cont p{
+    font-family: kleymissky;
+    font-size: 20px;
+}
+.menu-text{
+    text-align: center;
+    font-family: jacques francois;
+}
+.menu-text h1{
+    color:  #E7D886;;
+}
+.menu-text p{
+    width: 59vw;
+    color: gray;
+    font-size: 12px;
+   margin: auto;
+   margin-bottom: 30px;
+   font-family: jacques francois;
+}
+.menu-img img{
+    width: 80vw;
+    margin-top: -50px;
+}
+@media (min-width:470px) {
+   .menu-img img{
+    width: 50vw;
+   } 
+}
+@media (min-width:768px) {
+    .menu-img img{
+        width: 350px;
+        margin-top: -70px;
+        margin-right: 40px;
+    }
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 40px;
+        align-items: center;
+    }
+    
+    #taste{
+        text-align: left;
+        margin-left: 60px;
+        margin-bottom: -50px;
+    }
+    .menu-text{
+        text-align: left;
+     
+    }
+    .menu-text h1{
+      font-size: 50px;
+     margin-bottom: 10px;
+    }
+    .menu-text p{
+        width: 270px;
+        margin-left: 15px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width:950px) {
+    .menu-text p {
+        width: 340px;
+        font-size: 15px;
+    }
+    .btns{
+        margin-left: 10px;
+    }
+}
+
+@media (min-width:1000px) {
+    .menu-img img{
+        width: 470px;
+    }
+    #taste{
+        margin-bottom: -100px;
+    }
+   
+}
+
+@media (min-width:1400px) {
+   .menu-text p{
+    font-size: 18px;
+    width: 450px;
+   } 
+   .menu-img img{
+    width: 530px;
+   }
+   #taste{
+    font-size: 29px;
+    margin-bottom: -150px;
+   }
+}

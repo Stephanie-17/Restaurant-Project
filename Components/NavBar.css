@@ -1,0 +1,98 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: kleymissky;
+    line-height: 0.1;
+}
+
+.phone{
+    display: none;
+}
+.logoNinfo{
+    display: flex;
+    width:470px;
+    justify-content: space-between;
+}
+.location{
+    display: none;
+}
+#nav-btn1{
+    display: none;
+}
+#nav-btn2{
+   border-radius: 10px;
+   height: 27px;
+   width:140px ;
+   background-color: black;
+   color: #E7D886;
+   border: 2px solid #E7D886;
+   font-family: jacques francois;
+}
+
+
+
+@media (min-width:600px) {
+    .nav-btns{
+        display: flex;
+    }
+    #nav-btn1{
+        display: inline;
+        border-radius: 10px;
+        height: 27px;
+      width: 100px;
+        background-color: black;
+        color: #E7D886;
+        border: 2px solid #E7D886;
+        font-family: jacques francois;
+        margin-right: 10px;
+    }
+}
+
+@media (min-width:768px) {
+   
+    .location{
+    display: flex;
+    align-items: center;
+    
+    }
+    .phone{
+        display: flex;
+        align-items: center;
+    }
+    
+}
+
+@media (min-width:1047px) {
+    .phone{
+        display: flex;
+        align-items: center;
+    }
+   .navbar{
+    width: 90vw;
+    margin:0 auto;
+   }
+}
+@media (min-width:1200px) {
+    .location p,
+    .phone p{
+        font-size: 19px;
+    }
+    .logoNinfo{
+        width: 550px;
+    }
+    .nav-btns{
+        width: 300px;
+    }
+    #nav-btn1{
+        width: 110px;
+        height: 30px;
+        font-size: 15px;
+    }
+    #nav-btn2{
+
+        width: 150px;
+        height: 30px;
+        font-size: 15px;
+    }
+}

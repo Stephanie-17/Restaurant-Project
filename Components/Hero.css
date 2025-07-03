@@ -1,0 +1,30 @@
+.hero-cont {
+text-align: center;
+width: 80vw;
+line-height: 0.1;
+margin: auto;
+margin-top: 270px;
+}
+.hero-cont p{
+    font-family: kleymissky;
+    font-size: 21px;
+}
+.hero-cont h1{
+    color:  #E7D886;
+
+    font-family: jacques francois;
+}
+@media (min-width:768px) {
+   .hero-cont h1{
+    font-size: 50px;
+   } 
+}
+
+@media (min-width:1300px) {
+    .hero-cont h1{
+        font-size: 60px;
+    }
+    .hero-cont p{
+        font-size: 32px;
+    }
+}

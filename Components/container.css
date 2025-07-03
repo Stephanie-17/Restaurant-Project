@@ -1,0 +1,24 @@
+.container{
+
+    background-image: url(/src/assets/bgimgs.jpeg);
+    height: 890px;
+    overflow: visible;
+    width: 100%;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.647);
+    background-blend-mode: multiply;
+}
+/* @media (min-width:1200px) {
+    .container{
+        height: 130vh;
+    }
+} */
+@media (min-width:768px) {
+    .container{
+        height: 980px;
+    }
+}
+

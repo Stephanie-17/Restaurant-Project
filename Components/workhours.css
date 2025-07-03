@@ -1,0 +1,75 @@
+.working-hours{
+    margin-top: 210px;
+    text-align: center;
+    line-height: 0.1;
+    font-family: jacques francois;
+    
+}
+.working-hours-large{
+    display: none;
+}
+.working-hours h3{
+    font-family: kleymissky;
+    font-size: 32px;
+}
+.hours{
+    color: #E7D886;;
+}
+.disclaimer{
+    margin-top: 40px;
+}
+
+@media (min-width:768px) {
+    .working-hours{
+        display: none;
+    }
+    .time{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        margin-top: 50px;
+        font-family: jacques francois;
+    }
+    .working-hours-large{
+        display: block;
+        margin-top: 340px;
+        line-height: 0.1;
+        margin-bottom: 100px;
+        width: 90vw;
+        margin-left: 50px;
+    }
+   .working-hours-large h3{
+    text-align: center;
+    font-family: kleymissky;
+    font-size: 32px;
+   }
+   .time span{
+    color: #E7D886;
+   }
+   .disclaimers{
+    display: flex;
+    justify-content: space-between;
+   margin-top: 50px;
+    width: 400px;
+    font-family: jacques francois;
+    line-height: 4;
+    align-items: center;
+    margin: auto;
+    font-size: 12px;
+   }
+}
+
+@media (min-width:1300px) {
+    .working-hours-large h3{
+        font-size: 42px;
+    }
+    .working-hours-large p{
+        font-size: 20px;
+    }
+    .disclaimers p{
+        font-size: 14px;
+    }
+    .disclaimers{
+        width: 30vw;
+    }
+}
