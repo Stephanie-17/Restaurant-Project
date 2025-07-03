@@ -1,5 +1,4 @@
-import React from 'react'
-import image from '../src/assets/footerImg.jpg'
+
 import './Contact.css'
 import phone from '../src/assets/phone (1).png'
 import location from '../src/assets/location.png'
